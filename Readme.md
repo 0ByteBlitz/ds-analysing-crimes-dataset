@@ -1,3 +1,5 @@
+import pandas as pd
+
 # Los Angeles, California 😎
 
 The City of Angels. Tinseltown. The Entertainment Capital of the World!
@@ -20,9 +22,7 @@ It is a modified version of the original data, which is publicly available from 
 | 'Crm Cd Desc' | Indicates the crime committed. |
 | 'Vict Age' | Victim's age in years. |
 | 'Vict Sex' | Victim's sex: F: Female, M: Male, X: Unknown. |
-| 'Vict Descent' | Victim's descent: |
-
-A - Other Asian
+| 'Vict Descent' | Victim's descent: A - Other Asian
 B - Black
 C - Chinese
 D - Cambodian
@@ -40,7 +40,7 @@ U - Hawaiian
 V - Vietnamese
 W - White
 X - Unknown
-Z - Asian Indian
+Z - Asian Indian |
 'Weapon Desc' | Description of the weapon used (if applicable).
 'Status Desc' | Crime status.
 'LOCATION' | Street address of the crime.
